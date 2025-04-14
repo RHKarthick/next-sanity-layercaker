@@ -1,11 +1,11 @@
 import { sanityFetch } from "@/sanity/lib/live";
 import { POST_QUERY } from "@/sanity/lib/queries";
 import { notFound } from "next/navigation";
-import Link from "next/link";
-import { urlFor } from "@/sanity/lib/image";
-import Image from "next/image";
-import { PortableText } from "next-sanity";
-import { components } from "@/sanity/portableTextComponents";
+// import Link from "next/link";
+// import { urlFor } from "@/sanity/lib/image";
+// import Image from "next/image";
+// import { PortableText } from "next-sanity";
+// import { components } from "@/sanity/portableTextComponents";
 import { Post } from '@/components/Post'
 export default async function Page({
   params,
